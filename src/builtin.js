@@ -109,6 +109,16 @@ Sk.builtin.assk$ = function (a) {
         return new Sk.builtin.float_(a);
     }
 };
+
+
+Sk.builtin.abs = function abs(x)
+{
+    return Math.abs(x);
+};
+
+
+
+
 goog.exportSymbol("Sk.builtin.assk$", Sk.builtin.assk$);
 
 Sk.builtin.asnum$nofloat = function (a) {
