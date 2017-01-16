@@ -85,7 +85,15 @@ Sk.builtins = {
     "issubclass": Sk.builtin.issubclass,
     "iter"      : Sk.builtin.iter,
     "complex"   : Sk.builtin.complex,
+    'range': Sk.builtin.range,
+'len': Sk.builtin.len,
+'min': Sk.builtin.min,
+'max': Sk.builtin.max,
+'sum': Sk.builtin.sum,
+'abs': Sk.builtin.abs,
 
+    
+    
     // Functions below are not implemented
     "bytearray" : Sk.builtin.bytearray,
     "callable"  : Sk.builtin.callable,
